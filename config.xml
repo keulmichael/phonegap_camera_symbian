@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "phonegap"
+version = "1.0.0">
+
+<name>Distriweb Mobile</name>
+
+<description>
+Distriweb mobile
+</description>
+
+<author href="http://www.distriweb.mobi"
+email="host.michael@gmail.com">
+Michael Host
+</author>
+
+<gap:platforms>
+<gap:platform name="symbian.wrt" />
+</gap:platforms>
+
+<icon src="Icon.png" />
+
+
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+
+
+
+    <preference name="phonegap-version" value="2.0.0" />
+
+</widget>
+
